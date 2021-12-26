@@ -1,0 +1,16 @@
+@media screen and (max-width: 1024px){
+	#loginShow{
+		width: 55% !important;
+	}
+}
+@media screen and (max-width: 768px){
+	#loginShow{
+		width: 75% !important;
+	}
+}
+@media screen and (max-width: 600px){
+	#loginShow{
+		width: 100% !important;
+	}
+}
+

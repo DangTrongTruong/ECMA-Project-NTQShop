@@ -1,0 +1,85 @@
+.about-wrap{
+    margin-top: 140px;
+    margin-bottom: 30px;
+}
+.about-top{
+    padding:50px 100px;
+    background-image: url(../image/history-4.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.title-about-top{
+    color: white;
+    text-transform: uppercase;
+    position:relative;
+    padding-bottom: 20px;
+    text-shadow: 2px 2px 2px black;
+}
+.title-about-top::before{
+    content:"";
+    width: 100px;
+    height: 5px;
+    position:absolute;
+    background-color: red;
+    bottom: 0;
+    left:0;
+}
+.about-overview-top{
+    margin-top:50px;
+    text-align: center;
+}
+.about-overview-top{
+    
+}
+.title-about-overview{
+    position: relative;
+    padding-bottom: 20px;
+}
+.title-about-overview::before{
+    content:"";
+    width: 200px;
+    height: 5px;
+    position:absolute;
+    background-color: red;
+    bottom: 0;
+    right: 50%;
+    transform: translateX(50%);
+    
+    
+}
+.info-about-overview{
+
+}
+.about-overview-content{
+   
+    background-color: rgb(216, 213, 213);
+}
+.overview-content-info{
+    display: flex;
+    align-items: center;
+    padding:10px 20px;
+}
+.system-content{
+   
+   overflow: hidden;
+}
+.image-system{
+   height: 200px;
+   background-image: url(../image/history-3.jpeg);
+   background-repeat: no-repeat;
+   background-position: center;
+   background-size: cover;
+   overflow: hidden;
+   transition: 1s all;
+}
+.image-system:hover{
+    transform:scale(1.1)
+}
+
+@media screen and  (max-width: 1023px){
+.about-overview-content{
+    display: flex;
+    flex-direction: column-reverse;
+}
+}

@@ -1,0 +1,296 @@
+{
+  "users": [
+    {
+      "email": "admin@gmail.com",
+      "password": "$2a$10$GSdVXKyFtqCyg97hdjtx7efEjT2bDD9NHvc1W2UaV6lsZC/tusjwG",
+      "user": "admin",
+      "id": 1
+    }
+  ],
+  "order": [
+    {
+      "lastName": "Đặng",
+      "firstName": "Trường",
+      "address": "Hà Nội",
+      "phoneNumber": "0388113898",
+      "email": "dangtrongtruong190197@gmail.com",
+      "timeOrder": "14/9/2021 - 9h:6'",
+      "product": [
+        {
+          "id": 2,
+          "categoryID": 1,
+          "name": "ÁO SƠ MI NAM DÀI TAY NTQ – ASN000822",
+          "image": "./src/public/image/item-2.jpeg",
+          "price": "888",
+          "design": "Áo sơ mi nam dài tay NTQ caro",
+          "material": "100% Cotton",
+          "form": "Form thường",
+          "quantity": 1
+        },
+        {
+          "id": 3,
+          "categoryID": 1,
+          "name": "ÁO SƠ MI NAM DÀI TAY NTQ – ASN00083",
+          "image": "./src/public/image/item-3.jpeg",
+          "price": "888",
+          "design": "Áo sơ mi nam dài tay NTQ caro",
+          "material": "100% Cotton",
+          "form": "Form thường",
+          "quantity": 2
+        }
+      ],
+      "sumpPrice": "2664",
+      "id": 3
+    },
+    {
+      "lastName": "Đặng",
+      "firstName": "Trường",
+      "address": "Hà Nội",
+      "phoneNumber": "0388113898",
+      "email": "truongdtph13126@fpt.edu.vn",
+      "timeOrder": "20/9/2021 - 14h:45'",
+      "product": [
+        {
+          "id": 4,
+          "categoryID": 1,
+          "name": "ÁO SƠ MI NAM DÀI TAY NTQ – ASN000824",
+          "image": "./src/public/image/item-4.jpeg",
+          "price": "888",
+          "design": "Áo sơ mi nam dài tay NTQ caro",
+          "material": "100% Cotton",
+          "form": "Form thường",
+          "quantity": 1
+        }
+      ],
+      "sumpPrice": "888",
+      "id": 4
+    },
+    {
+      "lastName": "Đặng",
+      "firstName": "Trường",
+      "address": "Hà Nội",
+      "phoneNumber": "0388113898",
+      "email": "dangtrongtruong190197@gmail.com",
+      "timeOrder": "25/9/2021 - 15h:11'",
+      "product": [
+        {
+          "id": 13,
+          "categoryID": 3,
+          "name": "vest nam NTQ mode 2021 – VE3121312312",
+          "image": "./src/public/image/vest-3.jpeg",
+          "price": "888",
+          "design": "vest nam NTQ mode 2021",
+          "material": "100% Cotton",
+          "form": "Form thường",
+          "quantity": 2
+        }
+      ],
+      "sumpPrice": "1776",
+      "id": 5
+    }
+  ],
+  "category": [
+    {
+      "id": 1,
+      "name": "Sơ mi"
+    },
+    {
+      "id": 2,
+      "name": "Quần nam"
+    },
+    {
+      "id": 3,
+      "name": "Vest"
+    }
+  ],
+  "products": [
+    {
+      "id": 1,
+      "categoryID": 1,
+      "name": "ÁO SƠ MI NAM DÀI TAY NTQ – ASN000821",
+      "image": "./src/public/image/item-1.jpeg",
+      "price": "888",
+      "design": "Áo sơ mi nam dài tay NTQ caro",
+      "material": "100% Cotton",
+      "form": "Form thường"
+    },
+    {
+      "id": 2,
+      "categoryID": 1,
+      "name": "ÁO SƠ MI NAM DÀI TAY NTQ – ASN000822",
+      "image": "./src/public/image/item-2.jpeg",
+      "price": "888",
+      "design": "Áo sơ mi nam dài tay NTQ caro",
+      "material": "100% Cotton",
+      "form": "Form thường"
+    },
+    {
+      "id": 3,
+      "categoryID": 1,
+      "name": "ÁO SƠ MI NAM DÀI TAY NTQ – ASN00083",
+      "image": "./src/public/image/item-3.jpeg",
+      "price": "888",
+      "design": "Áo sơ mi nam dài tay NTQ caro",
+      "material": "100% Cotton",
+      "form": "Form thường"
+    },
+    {
+      "id": 4,
+      "categoryID": 1,
+      "name": "ÁO SƠ MI NAM DÀI TAY NTQ – ASN000824",
+      "image": "./src/public/image/item-4.jpeg",
+      "price": "888",
+      "design": "Áo sơ mi nam dài tay NTQ caro",
+      "material": "100% Cotton",
+      "form": "Form thường"
+    },
+    {
+      "id": 5,
+      "categoryID": 1,
+      "name": "ÁO SƠ MI NAM DÀI TAY NTQ – ASN000825",
+      "image": "./src/public/image/item-5.jpeg",
+      "price": "888",
+      "design": "Áo sơ mi nam dài tay NTQ caro",
+      "material": "100% Cotton",
+      "form": "Form thường"
+    },
+    {
+      "id": 6,
+      "categoryID": 2,
+      "name": "quần âu nam NTQ mode 2021 – QA1212121",
+      "image": "./src/public/image/quan-1.jpeg",
+      "price": "888",
+      "design": "quần âu nam NTQ mode 2021",
+      "material": "100% Cotton",
+      "form": "Form thường"
+    },
+    {
+      "id": 7,
+      "categoryID": 2,
+      "name": "quần âu nam NTQ mode 2021 – QA1212122",
+      "image": "./src/public/image/quan-2.jpeg",
+      "price": "888",
+      "design": "quần âu nam NTQ mode 2021",
+      "material": "100% Cotton",
+      "form": "Form thường"
+    },
+    {
+      "id": 8,
+      "categoryID": 2,
+      "name": "quần âu nam NTQ mode 2021 – QA1212123",
+      "image": "./src/public/image/quan-3.jpeg",
+      "price": "888",
+      "design": "quần âu nam NTQ mode 2021",
+      "material": "100% Cotton",
+      "form": "Form thường"
+    },
+    {
+      "id": 9,
+      "categoryID": 2,
+      "name": "quần âu nam NTQ mode 2021 – QA1212124",
+      "image": "./src/public/image/quan-4.jpeg",
+      "price": "888",
+      "design": "quần âu nam NTQ mode 2021",
+      "material": "100% Cotton",
+      "form": "Form thường"
+    },
+    {
+      "id": 10,
+      "categoryID": 2,
+      "name": "quần âu nam NTQ mode 2021 – QA1212125",
+      "image": "./src/public/image/quan-5.jpeg",
+      "price": "888",
+      "design": "quần âu nam NTQ mode 2021",
+      "material": "100% Cotton",
+      "form": "Form thường"
+    },
+    {
+      "id": 11,
+      "categoryID": 3,
+      "name": "vest nam NTQ mode 2021 – VE1121312312",
+      "image": "./src/public/image/vest-1.jpeg",
+      "price": "888",
+      "design": "vest nam NTQ mode 2021",
+      "material": "100% Cotton",
+      "form": "Form thường"
+    },
+    {
+      "id": 12,
+      "categoryID": 3,
+      "name": "vest nam NTQ mode 2021 – VE2121312312",
+      "image": "./src/public/image/vest-2.jpeg",
+      "price": "888",
+      "design": "vest nam NTQ mode 2021",
+      "material": "100% Cotton",
+      "form": "Form thường"
+    },
+    {
+      "id": 13,
+      "categoryID": 3,
+      "name": "vest nam NTQ mode 2021 – VE3121312312",
+      "image": "./src/public/image/vest-3.jpeg",
+      "price": "888",
+      "design": "vest nam NTQ mode 2021",
+      "material": "100% Cotton",
+      "form": "Form thường"
+    },
+    {
+      "id": 14,
+      "categoryID": 3,
+      "name": "vest nam NTQ mode 2021 – VE4121312312",
+      "image": "./src/public/image/vest-4.jpeg",
+      "price": "888",
+      "design": "vest nam NTQ mode 2021",
+      "material": "100% Cotton",
+      "form": "Form thường"
+    }
+  ],
+  "comment": [
+    {
+      "name": "dangtrongtruong",
+      "email": "dangtrongtruong19011997@gmail.com",
+      "content": "xin chao",
+      "nameProduct": "quần âu nam NTQ mode 2021 – QA1212123",
+      "idProduct": "8",
+      "id": 1
+    },
+    {
+      "name": "TrườngĐặng",
+      "email": "luuthingocdiep.1999@gmail.com",
+      "content": "hello",
+      "nameProduct": "quần âu nam NTQ mode 2021 – QA1212121",
+      "idProduct": "6",
+      "id": 2
+    },
+    {
+      "name": "Trường Đặng",
+      "email": "dangtrongtruong190197@gmail.com",
+      "content": "hiihi",
+      "nameProduct": "ÁO SƠ MI NAM DÀI TAY NTQ – ASN00083",
+      "idProduct": "3",
+      "id": 3
+    },
+    {
+      "name": "TrườngĐặng",
+      "email": "luuthingocdiep.1999@gmail.com",
+      "content": "hihih",
+      "nameProduct": "ÁO SƠ MI NAM DÀI TAY NTQ – ASN000822",
+      "idProduct": "2",
+      "id": 4
+    }
+  ],
+  "slider": [
+    {
+      "id": 1,
+      "src": "./src/public/image/slider-ntq-1.jpeg"
+    },
+    {
+      "id": 2,
+      "src": "./src/public/image/slider-ntq-2.jpeg"
+    },
+    {
+      "id": 3,
+      "src": "./src/public/image/slider-ntq-3.jpeg"
+    }
+  ]
+}
